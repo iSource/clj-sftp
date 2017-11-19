@@ -4,7 +4,11 @@ A Clojure library designed to ... well, that part is up to you.
 
 ## Usage
 
-FIXME
+```clojure
+
+(with-connection [conn {:user "username" :password "password" :host "ip" :port 22}]
+                 (mkdir conn "/home/oracle/dir"))
+```
 
 ## License
 
